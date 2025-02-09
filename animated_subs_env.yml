@@ -1,0 +1,10 @@
+name: animated_subs
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - ffmpeg
+  - moviepy
+  - pip
+  - pip:
+      - pysrt
